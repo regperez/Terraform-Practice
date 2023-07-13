@@ -1,0 +1,7 @@
+# run terraform
+terraform init
+terraform plan
+terraform apply --auto-approve
+
+# delete aws resources using terraform
+terraform destroy --auto-approve
