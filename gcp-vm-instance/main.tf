@@ -28,7 +28,7 @@ resource "google_compute_firewall" "http-server" {
 resource "google_compute_instance" "default" {
   name = "webserver"
   machine_type = "e2-micro"
-  zone = "us-central1-a"
+  zone = "us-east1-b"
   boot_disk {
     initialize_params {
       image = "debian-cloud/debian-11"
